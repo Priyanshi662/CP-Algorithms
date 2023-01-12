@@ -29,7 +29,7 @@ ll bin_power_iterative(int n,int b)
         if(b&1)
             res=res*n;
         n=n*n;
-        b>>=2;
+        b>>=1;
     }
     return res;
 }
